@@ -42,18 +42,22 @@
   /* Estilos para o botão */
   .full-width-button {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; /* Agora ocupa toda a largura da tela */
-    padding: 20px; /* Adiciona algum espaço interno para o texto do botão */
+    bottom: 20%; /* Posicionado a 20% da altura da tela */
+    left: 5%; /* Ajustado para um pouco mais do centro */
+    width: 90%; /* Largura aumentada */
+    padding: 20px; /* Espaçamento interno */
     font-size: 20px;
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branca */
+    border: none; /* Removido a borda */
+    cursor: pointer; /* Alterado o cursor para indicar que é clicável */
   }
 </style>
 </head>
 <body>
 
 <!-- Botão -->
-<button class="full-width-button" onclick="abrirPagina()">Abrir Página</button>
+<button class="full-width-button" onclick="abrirPagina()">NÃO ENTRE</button>
 
 <!-- Script para abrir outra página -->
 <script>
