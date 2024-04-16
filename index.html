@@ -38,11 +38,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Botão para Abrir Outra Página</title>
+<style>
+  /* Estilos para o botão */
+  .full-width-button {
+    position: absolute;
+    top: 0;
+    left: 5%; /* Ajusta a posição para cobrir quase toda a tela da esquerda */
+    width: 90%; /* Define a largura para cobrir quase toda a largura da tela */
+    padding: 15px; /* Adiciona algum espaço interno para o texto do botão */
+    font-size: 16px;
+  }
+</style>
 </head>
 <body>
 
 <!-- Botão -->
-<button onclick="abrirPagina()">Abrir Página</button>
+<button class="full-width-button" onclick="abrirPagina()">Abrir Página</button>
 
 <!-- Script para abrir outra página -->
 <script>
@@ -54,6 +65,7 @@ function abrirPagina() {
   window.open(url, '_blank');
 }
 </script>
+
 
 
 
